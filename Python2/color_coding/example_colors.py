@@ -58,3 +58,12 @@ if __name__ == '__main__':
 	print
 	print black('This text should be black!')
 	print
+
+	print '-------------------------------------------------------------------'
+	print 'Example: purple()'
+	print 'Function call: purple(\'This text should be purple!\')'
+	print '-------------------------------------------------------------------'
+
+	print
+	print purple('This text should be purple!')
+	print
