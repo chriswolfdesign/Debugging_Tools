@@ -46,7 +46,6 @@ def success(function_call, expected_result='', received_result=''):
 		print blue('    Expected result: ' + str(expected_result))
 		print blue('    Received result: ' + str(received_result))
 
-	print
 	print blue('-------------------------------------------------------------')
 	print
 
@@ -84,7 +83,6 @@ def fail(function_call, expected_result='', received_result=''):
 		print red('    Expected result: ' + str(expected_result))
 		print red('    Received result: ' + str(received_result))
 
-	print
 	print red('-------------------------------------------------------------')
 	print
 
